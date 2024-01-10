@@ -43,6 +43,11 @@ local defaults = {
     ["<A-Down>"] = "<C-\\><C-N><C-w>j",
     ["<A-Left>"] = "<C-\\><C-N><C-w>h",
     ["<A-Right>"] = "<C-\\><C-N><C-w>l",
+    -- custom settings for xx-zhang
+    ["<C-a>"] = "<Esc>^i",
+    ["<C-l>"] = "<Esc>$a",
+    ["<C-o>"] = "<Esc>o",
+    ["<C-q>"] = "<ESc>:wq<CR>",
   },
 
   normal_mode = {
